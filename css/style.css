@@ -10,18 +10,31 @@
 @import url(./partials/_global.css);
 
 
+
 /* start navigation */ 
+
 
 .header_area .main-menu .navbar .navbar-brand{
     padding: 0 2rem 0 5rem;
+    margin-left: -50px;
+
+    
 }
 
 .header_area .main-menu .navbar{
     padding: 1rem 20rem ;
+    background: white;
+    backdrop-filter: blur(5px);box-shadow: 0px 0px 5px 0px black;
+    display: flex;
+    position:fixed ;
+    width: 100%;
+
+    
+    
 }
 
 .header_area .main-menu .nav-item .nav-link{
-    font: normal 500 15px/2px var(--roboto);
+    font: normal 500 20px/2px var(--roboto);
     text-transform: uppercase;
     padding: 1.7rem;
     color: var(--title-color);
@@ -37,7 +50,7 @@
 .header_area .main-menu .navbar-nav a:hover{
     background: var(--gradient-color);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: red;
     background-clip: text;
 }
 
@@ -46,13 +59,13 @@
 
 /* Banner Area */ 
 
-.site-main .site-banner {
-    background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
-}
+
 
 .site-main .site-banner .site-title h3{
     padding-top: 35%;
     font-weight: 500;
+    margin-top: 50px;
+
 }
 
 .site-main .site-banner .site-title h3::after{
@@ -61,8 +74,8 @@
     width: 18vw;
     background: black;
     display: inline-block;
-    margin-left: 5%;
-    transform: translateY(-10px);
+    margin-left: 2%;
+    transform: translateY(3px);
 }
 
 .site-main .site-banner .site-title h1{
@@ -70,12 +83,17 @@
 }
 
 .site-main .site-banner .site-title h4{
-    font-size: 1.5rem;
+    
+    margin-left:105px;
+    color: rgb(84, 98, 219);
+    font-size: 40px;
 }
 
 .site-main .site-banner .banner-image > img{
     padding: 7rem 0;
-    width: 90rem;
+    width: 40rem;
+    margin-top: 30px;
+    height: 50rem;
 }
 
 
@@ -195,7 +213,7 @@
 }
 
 .site-main > .services-area .services{
-    background: rgba(248, 252, 253, 0.973);
+    background: rgba(232, 242, 244, 0.973);
     padding: 2rem 0;
     width: 16rem;
     margin: 5rem .5rem;
@@ -226,9 +244,10 @@
 
 .site-main .project-area .button-group button + button{
     padding-left: 3rem;
+   
+    
 }
-
-.site-main .project-area .grid .our-project > .title h4{
+-main .project-area .grid .our-project > .title h4{
     font: normal 700 25px/12px var(--roboto);
 }
 
@@ -290,6 +309,8 @@
     background: url(../img/subscribe-bg.png) no-repeat;
     padding: 10rem 0;
     margin: 3rem auto;
+    margin-left: 170px;
+    
 }
 
 .site-main .subscribe-us-area .subscribe .subscribe-title h4{
@@ -309,6 +330,12 @@
     background: transparent;
     color: white;
     font: normal 500 17px/20px var(--roboto);
+    margin-left: 20px;
+}
+.site-main .subscribe-us-area .subscribe form .input-textbox input:hover{
+    transition:background .6s ease;
+    box-shadow: 1px 1px 1px 1px white;
+
 }
 
 .site-main .subscribe-us-area .subscribe form .input-textbox input::placeholder{
@@ -316,10 +343,20 @@
 }
 
 .site-main .subscribe-us-area .subscribe form .btn-submit button{
-    background: whitesmoke;
-    color: #000;
-    padding: .7rem 2rem;
+    background: transparent;
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background .6s ease;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px white;
 }
+.site-main .subscribe-us-area .subscribe form .btn-submit button:hover{
+    
+    transition:background .6s ease;
+    box-shadow: 1px 1px 1px 1px white;
+
+}
+
 
 /* End subscribe me */ 
 
@@ -342,6 +379,7 @@ footer.footer-area .social a > i{
 
 footer.footer-area .social a:hover > i{
     color: var(--primary-color);
+    
 }
 
 
