@@ -7,4 +7,4 @@ This repository contains the code and documentation for the DailyClass Project, 
 ## Project
 
 (https://github.com/rohanrp-99/02-DailyClass-Project)
-### Link -> **[View Project ](https://github.com/rohanrp-99/02-DailyClass-Project/blob/master/Index.html)**
+### Link -> **[View Project ](https://github.com/rohanrp-99/02-DailyClass-Project)**
