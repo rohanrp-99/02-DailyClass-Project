@@ -14,3 +14,5 @@ This repository contains the code and documentation for the DailyClass Project, 
 - **HTML5** for structuring the form.
 
 - **CSS3** for styling, including layout, typography, and colors.
+
+- **JS**  
