@@ -15,4 +15,4 @@ This repository contains the code and documentation for the DailyClass Project, 
 
 - **CSS3** for styling, including layout, typography, and colors.
 
-- **JS**  
+- **JS**  For interactive elements and client-side logic
