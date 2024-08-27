@@ -8,3 +8,9 @@ This repository contains the code and documentation for the DailyClass Project, 
 
 (https://github.com/rohanrp-99/02-DailyClass-Project)
 ### Link -> **[View Project ](https://github.com/rohanrp-99/02-DailyClass-Project)**
+
+## Technologies Used
+
+- **HTML5** for structuring the form.
+
+- **CSS3** for styling, including layout, typography, and colors.
