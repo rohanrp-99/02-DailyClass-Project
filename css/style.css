@@ -32,6 +32,17 @@
     
     
 }
+header .logo  {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+  font-style: oblique;
+}
+.logo:hover{
+    color:rgb(125, 124, 124);
+    transition-duration: 3s;
+}
+
 
 .header_area .main-menu .nav-item .nav-link{
     font: normal 500 20px/2px var(--roboto);
@@ -94,6 +105,7 @@
     width: 40rem;
     margin-top: 30px;
     height: 50rem;
+
 }
 
 
@@ -111,6 +123,7 @@
     font: normal bold 49px/ 60px var(--roboto);
     letter-spacing: 21px;
 }
+
 
 .site-main .about-area .about-title .paragraph > p{
     padding: .4rem 0;
@@ -144,6 +157,7 @@
 
 .site-main .brand-area .first-row .col-lg-4 > .single-brand > img{
     width: 50%;
+    filter: drop-shadow(15px 15px 20px gray);
 }
 
 .site-main .brand-area .first-row .col-lg-4 > .single-brand:hover{
@@ -241,6 +255,13 @@
     font: normal 500 16px/130px var(--roboto);
     text-transform: uppercase;
 }
+.site-main .project-area .button-group button:hover{
+    color: red;
+    font-size: 18px;
+}
+.site-main .project-area .button-group .active{
+    color: blue;
+}
 
 .site-main .project-area .button-group button + button{
     padding-left: 3rem;
@@ -253,6 +274,7 @@
 
 .site-main .project-area .grid .our-project .img a:hover img{
     filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+    border-radius: 20px;
 }
 
 
@@ -273,6 +295,7 @@
 
 .site-main .about-area .client .client-img{
     padding: 2rem;
+    margin-top: 5px;
 }
 
 .site-main .about-area .client .about-client{
@@ -310,12 +333,17 @@
     padding: 10rem 0;
     margin: 3rem auto;
     margin-left: 170px;
+    border-radius: 40px;
     
 }
 
 .site-main .subscribe-us-area .subscribe .subscribe-title h4{
     font: normal 700 30px/ 30px var(--roboto);
     color: whitesmoke;
+}
+.site-main .subscribe-us-area .subscribe .subscribe-title h4:hover{
+    color: #ffab43;
+
 }
 
 .site-main .subscribe-us-area .subscribe .subscribe-title p{
@@ -330,11 +358,12 @@
     background: transparent;
     color: white;
     font: normal 500 17px/20px var(--roboto);
-    margin-left: 20px;
+    margin-left: 70px;
 }
 .site-main .subscribe-us-area .subscribe form .input-textbox input:hover{
     transition:background .6s ease;
     box-shadow: 1px 1px 1px 1px white;
+    background-color: #757575;
 
 }
 
@@ -354,6 +383,7 @@
     
     transition:background .6s ease;
     box-shadow: 1px 1px 1px 1px white;
+    background-color: #757575;
 
 }
 
